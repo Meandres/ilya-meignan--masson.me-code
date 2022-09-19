@@ -1,0 +1,9 @@
+[submodule "themes/themes/kangae"]
+	path = themes/themes/kangae
+	url = https://github.com/ayushnix/kangae.git
+[submodule "themes/kangae"]
+	path = themes/kangae
+	url = https://github.com/ayushnix/kangae.git
+[submodule "themes/d3c3nt"]
+	path = themes/d3c3nt
+	url = git://git.figbert.com/d3c3nt.git
