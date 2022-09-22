@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Ilya Meignan--Masson&#x27;s webpage</title>
+	<subtitle>My personal webpage.</subtitle>
+	<link href="https://ilya-meignan--masson.me/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ilya-meignan--masson.me"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-08-27T00:00:00+00:00</updated>
+	<id>https://ilya-meignan--masson.me/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Markdown Syntax Guide</title>
+		<published>2020-08-27T00:00:00+00:00</published>
+		<updated>2020-08-27T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ilya-meignan--masson.me/posts/markdown-syntax/" type="text/html"/>
+		<id>https://ilya-meignan--masson.me/posts/markdown-syntax/</id>
+		<content type="html">&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Zola files. It also shows whether basic HTML elements are decorated with CSS in a Zola theme.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; is the lowest.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;H1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;H2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;H3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;H4&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5&quot;&gt;H5&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6&quot;&gt;H6&lt;&#x2F;h6&gt;
+&lt;h2 id=&quot;paragraph&quot;&gt;Paragraph&lt;&#x2F;h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis
+aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus
+ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad wuibus
+unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;&#x2F;p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation in a &lt;code&gt;cite&lt;&#x2F;code&gt; element, and optionally with in-line changes such as
+annotations and abbreviations.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;blockquote-without-attribution&quot;&gt;Blockquote without attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;&#x2F;strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;&#x2F;em&gt; within a blockquote.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;blockquote-with-attribution&quot;&gt;Blockquote with attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s really hard to think of text to put here, because there are so many dead memes that would disrupt the flow of this article. You should use this theme.&lt;br&#x2F;&gt;
+— &lt;cite&gt;Big Chungus&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h2&gt;
+&lt;p&gt;Zola supports footnotes in Markdown via &lt;code&gt;pulldown-cmark&lt;&#x2F;code&gt;.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; Reference them in your content, and then write whatever you want at the bottom of the page.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
+&lt;p&gt;Tables aren’t part of the core Markdown spec, but Zola supports supports them out-of-the-box.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Name&lt;&#x2F;th&gt;&lt;th&gt;Age&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Bob&lt;&#x2F;td&gt;&lt;td&gt;27&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Alice&lt;&#x2F;td&gt;&lt;td&gt;23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h4 id=&quot;inline-markdown-within-tables&quot;&gt;Inline Markdown within tables&lt;&#x2F;h4&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Italics&lt;&#x2F;th&gt;&lt;th&gt;Bold&lt;&#x2F;th&gt;&lt;th&gt;Code&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;italics&lt;&#x2F;em&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;bold&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;code-block-with-backticks&quot;&gt;Code block with backticks&lt;&#x2F;h4&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;!doctype html&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;html &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;lang&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;en&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;meta &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;charset&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;Example HTML5 Document&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt;Test&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;html&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;code-block-indented-with-four-spaces&quot;&gt;Code block indented with four spaces&lt;&#x2F;h4&gt;
+&lt;pre style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot;&gt;&lt;code&gt;&lt;span&gt;&amp;lt;!doctype html&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;head&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;&#x2F;title&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;head&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;body&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;p&amp;gt;Test&amp;lt;&#x2F;p&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;body&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;html&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;ordered-list&quot;&gt;Ordered List&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;&#x2F;li&gt;
+&lt;li&gt;Second item&lt;&#x2F;li&gt;
+&lt;li&gt;Third item&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;unordered-list&quot;&gt;Unordered List&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;&#x2F;li&gt;
+&lt;li&gt;Another item&lt;&#x2F;li&gt;
+&lt;li&gt;And another item&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;nested-list&quot;&gt;Nested list&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;&#x2F;li&gt;
+&lt;li&gt;Orange&lt;&#x2F;li&gt;
+&lt;li&gt;Banana&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;&#x2F;li&gt;
+&lt;li&gt;Cheese&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other-elements-abbr-sub-sup-kbd-mark&quot;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;abbr title=&quot;Graphics Interchange Format&quot;&gt;GIF&lt;&#x2F;abbr&gt; is a bitmap image format.&lt;&#x2F;p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;&#x2F;sub&gt;O&lt;&#x2F;p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;&#x2F;sup&gt; + Y&lt;sup&gt;n&lt;&#x2F;sup&gt; = Z&lt;sup&gt;n&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Press &lt;kbd&gt;CTRL&lt;&#x2F;kbd&gt;+&lt;kbd&gt;ALT&lt;&#x2F;kbd&gt;+&lt;kbd&gt;Delete&lt;&#x2F;kbd&gt; to end the session.&lt;&#x2F;p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;&#x2F;mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;raphlinus&#x2F;pulldown-cmark&quot;&gt;&lt;code&gt;pulldown-cmark&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; is a CommonMark parser written in Rust. For the time being, footnotes do not link back to the text they
+began from. I expect this to change eventually, but it has to be implemented upstream from Zola.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Rich Content</title>
+		<published>2020-08-26T00:00:00+00:00</published>
+		<updated>2020-08-26T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ilya-meignan--masson.me/posts/rich-content/" type="text/html"/>
+		<id>https://ilya-meignan--masson.me/posts/rich-content/</id>
+		<content type="html">&lt;p&gt;d3c3nt ships with several custom shortcodes to augment CommonMark, in
+addition to those &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;shortcodes&#x2F;#built-in-shortcodes&quot;&gt;already provided by Zola&lt;&#x2F;a&gt;. &lt;code&gt;video&lt;&#x2F;code&gt;,
+&lt;code&gt;image&lt;&#x2F;code&gt;, &lt;code&gt;gif&lt;&#x2F;code&gt;, and &lt;code&gt;audio&lt;&#x2F;code&gt; were created to help you take advantage of
+modern HTML elements in your writing.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;video&quot;&gt;Video&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;video&lt;&#x2F;code&gt; shortcode takes a &lt;code&gt;sources&lt;&#x2F;code&gt; parameter (an array of strings)
+and returns a &lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag. Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should
+be a path to a video file of a different type (&lt;code&gt;webm&lt;&#x2F;code&gt;, &lt;code&gt;mp4&lt;&#x2F;code&gt;, etc). Each
+individual source is then converted into a &lt;code&gt;&amp;lt;source&amp;gt;&lt;&#x2F;code&gt; tag, and the
+element is returned.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ video(sources=[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.webm&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.mp4&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;video &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;controls&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.webm&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;video&#x2F;webm&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.mp4&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;video&#x2F;mp4&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the video tag and&#x2F;or the video formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;image&quot;&gt;Image&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;image&lt;&#x2F;code&gt; shortcode returns a &lt;code&gt;&amp;lt;picture&amp;gt;&lt;&#x2F;code&gt; tag and accepts three
+parameters: &lt;code&gt;sources&lt;&#x2F;code&gt; (an array of strings), &lt;code&gt;fallback_path&lt;&#x2F;code&gt;, and
+&lt;code&gt;fallback_alt&lt;&#x2F;code&gt; (both strings).&lt;&#x2F;p&gt;
+&lt;p&gt;Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should be a path to an image file of
+a different type (&lt;code&gt;webp&lt;&#x2F;code&gt;, &lt;code&gt;png&lt;&#x2F;code&gt;, &lt;code&gt;jpg&lt;&#x2F;code&gt;, etc). &lt;code&gt;fallback_path&lt;&#x2F;code&gt; and
+&lt;code&gt;fallback_alt&lt;&#x2F;code&gt; are used to create an &lt;code&gt;&amp;lt;img&amp;gt;&lt;&#x2F;code&gt; tag for the browser to fall
+back on if the other formats aren’t yet supported.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-1&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ image(sources=[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.webp&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.jpg&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.png&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;], fallback_path=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.png&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, fallback_alt=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;Lorem Ipsum&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-1&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;picture&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.webp&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;img&#x2F;webp&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.jpg&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;img&#x2F;jpg&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;srcset&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.png&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;img&#x2F;png&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;img &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;example.png&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;alt&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;Lorem Ipsum&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&#x2F;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;picture&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;gif&quot;&gt;GIF&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;gif&lt;&#x2F;code&gt; shortcode is exactly the same as the &lt;a href=&quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;#video&quot;&gt;video shortcode&lt;&#x2F;a&gt;
+– it takes an array of strings called &lt;code&gt;sources&lt;&#x2F;code&gt; and returns a
+&lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag. The only difference is in the outermost tag, which has
+four additional properties: &lt;code&gt;autoplay&lt;&#x2F;code&gt;, &lt;code&gt;loop&lt;&#x2F;code&gt;, &lt;code&gt;muted&lt;&#x2F;code&gt;, &lt;code&gt;playsinline&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Using the &lt;code&gt;&amp;lt;video&amp;gt;&lt;&#x2F;code&gt; tag in place of gifs allows for reduced file sizes,
+which is especially important in regions where internet is slower or
+less reliable.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-2&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ gif(sources=[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.webm&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.mp4&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-2&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;video &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;autoplay loop muted playsinline&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.webm&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;video&#x2F;webm&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.mp4&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;video&#x2F;mp4&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the video tag, which I use in place of .gifs, and&#x2F;or the video formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;video&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;audio&quot;&gt;Audio&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;code&gt;audio&lt;&#x2F;code&gt; shortcode takes a &lt;code&gt;sources&lt;&#x2F;code&gt; array of strings and returns an
+&lt;code&gt;&amp;lt;audio&amp;gt;&lt;&#x2F;code&gt; tag. Each string in the &lt;code&gt;sources&lt;&#x2F;code&gt; array should be a path to an
+audio file of a different type (&lt;code&gt;wav&lt;&#x2F;code&gt;, &lt;code&gt;ogg&lt;&#x2F;code&gt;, &lt;code&gt;mp3&lt;&#x2F;code&gt;, etc).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usage-3&quot;&gt;Usage&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span&gt;{{ audio(sources=[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.wav&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.ogg&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;example.mp3&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]) }}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;output-3&quot;&gt;Output&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#1e1e1e;color:#dcdcdc;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;audio &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;controls&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.wav&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;audio&#x2F;wav&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.ogg&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;audio&#x2F;ogg&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;source &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;ilya-meignan--masson.me&#x2F;posts&#x2F;rich-content&#x2F;example.mp3&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#92caf4;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c8c8c8;&quot;&gt;&amp;quot;audio&#x2F;mp3&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  Your browser doesn&amp;#39;t support the audio tag and&#x2F;or the audio formats in use here – sorry!
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;audio&lt;&#x2F;span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Placeholder Text</title>
+		<published>2020-08-24T00:00:00+00:00</published>
+		<updated>2020-08-24T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ilya-meignan--masson.me/posts/placeholder-text/" type="text/html"/>
+		<id>https://ilya-meignan--masson.me/posts/placeholder-text/</id>
+		<content type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt; Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque,
+furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque
+patulos Dryopen deorum.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;&#x2F;li&gt;
+&lt;li&gt;Duce pollice&lt;&#x2F;li&gt;
+&lt;li&gt;Eris modo&lt;&#x2F;li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;&#x2F;li&gt;
+&lt;li&gt;Post torum vates letum Tiresia&lt;&#x2F;li&gt;
+&lt;li&gt;Flumen querellas&lt;&#x2F;li&gt;
+&lt;li&gt;Arcanaque montibus omnes&lt;&#x2F;li&gt;
+&lt;li&gt;Quidem et&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;vagus-elidunt&quot;&gt;Vagus elidunt&lt;&#x2F;h1&gt;
+&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque
+creatis, tecta novat collumque vulnus est, parvas. &lt;strong&gt;Faces illo pepulere&lt;&#x2F;strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;&#x2F;p&gt;
+&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque
+tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat,
+sui et.&lt;&#x2F;p&gt;
+&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong&gt;mitis temploque&lt;&#x2F;strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;&#x2F;em&gt; non silvis corpore coniunx
+ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante
+urbem Propoetides &lt;strong&gt;parte&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
